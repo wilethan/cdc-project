@@ -77,15 +77,6 @@ CREATE TABLE file_chunks (
     chunk_hash VARCHAR(64) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-CREATE TABLE compression_stats (
-    id SERIAL PRIMARY KEY,
-    file_name VARCHAR(255) NOT NULL,
-    original_size BIGINT NOT NULL,
-    compressed_size BIGINT NOT NULL,
-    compression_ratio DECIMAL(5, 2) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
 ```
 
 ### Database Configuration
