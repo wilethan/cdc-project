@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class DatabaseUtil {
     private static final String URL = "jdbc:postgresql://localhost:5432/chunkdb";
-    private static final String USER = "postgres";
-    private static final String PASSWORD = "admin";
+    private static final String USER = "your_username";
+    private static final String PASSWORD = "your_password";
 
     /**
      * Établit une connexion à la base de données.
