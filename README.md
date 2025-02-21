@@ -70,12 +70,10 @@ The project uses PostgreSQL for database operations. Follow these steps to set u
 Run the following SQL commands to create the necessary tables:
 
 ```sql
-CREATE TABLE file_chunks (
+CREATE TABLE chunks (
     id SERIAL PRIMARY KEY,
-    file_name VARCHAR(255) NOT NULL,
-    chunk_data BYTEA NOT NULL,
-    chunk_hash VARCHAR(64) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    hash VARCHAR(255) NOT NULL,
+    file_path VARCHAR(64) NOT NULL
 );
 ```
 
@@ -84,7 +82,7 @@ CREATE TABLE file_chunks (
 Update the `DatabaseUtil` class with your database connection details:
 
 ```java
-// filepath: /c:/Users/wilet/Documents/Mastere_CTO_Tech_Lead/Java2025/cdc-project/src/main/java/com/example/DatabaseUtil.java
+// filepath: cdc-project/src/main/java/com/example/DatabaseUtil.java
 // ...existing code...
 private static final String URL = "jdbc:postgresql://localhost:5432/cdc_project";
 private static final String USER = "your_username";
@@ -95,7 +93,7 @@ private static final String PASSWORD = "your_password";
 Ensure that the PostgreSQL JDBC Driver is included in your `pom.xml` dependencies:
 
 ```xml
-// filepath: /c:/Users/wilet/Documents/Mastere_CTO_Tech_Lead/Java2025/cdc-project/pom.xml
+// filepath: cdc-project/pom.xml
 // ...existing code...
 <dependency>
     <groupId>org.postgresql</groupId>
