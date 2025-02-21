@@ -1,0 +1,3 @@
+Ceci est un fichier de test pour le projet de découpage de fichiers.
+Nous allons tester l'algorithme CDC avec Rabin Fingerprinting.
+Ce fichier contient plusieurs lignes pour vérifier le bon fonctionnement du découpage.

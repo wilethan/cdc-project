@@ -1,0 +1,6 @@
+com\example\FileChunker.class
+com\cdcApi\ChunkIndex.class
+com\example\RabinFingerprint.class
+com\example\HashUtil.class
+com\example\CompressionUtil.class
+com\example\DatabaseUtil.class

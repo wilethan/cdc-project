@@ -1,0 +1,36 @@
+2023-10-01 10:00:00 INFO  com.example.Main - Application started
+2023-10-01 10:01:00 DEBUG com.example.Service - Processing request with id=123
+2023-10-01 10:02:00 WARN  com.example.Service - Request with id=123 took longer than expected
+2023-10-01 10:03:00 ERROR com.example.Service - Failed to process request with id=123 due to timeout
+2023-10-01 10:04:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:05:00 INFO  com.example.Main - Application started
+2023-10-01 10:06:00 DEBUG com.example.Service - Processing request with id=124
+2023-10-01 10:07:00 WARN  com.example.Service - Request with id=124 took longer than expected
+2023-10-01 10:08:00 ERROR com.example.Service - Failed to process request with id=124 due to timeout
+2023-10-01 10:09:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:10:00 INFO  com.example.Main - Application started
+2023-10-01 10:11:00 DEBUG com.example.Service - Processing request with id=125
+2023-10-01 10:12:00 WARN  com.example.Service - Request with id=125 took longer than expected
+2023-10-01 10:13:00 ERROR com.example.Service - Failed to process request with id=125 due to timeout
+2023-10-01 10:14:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:15:00 INFO  com.example.Main - Application started
+2023-10-01 10:16:00 DEBUG com.example.Service - Processing request with id=126
+2023-10-01 10:17:00 WARN  com.example.Service - Request with id=126 took longer than expected
+2023-10-01 10:18:00 ERROR com.example.Service - Failed to process request with id=126 due to timeout
+2023-10-01 10:19:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:08:00 ERROR com.example.Service - Failed to process request with id=124 due to timeout
+2023-10-01 10:09:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:10:00 INFO  com.example.Main - Application started
+2023-10-01 10:11:00 DEBUG com.example.Service - Processing request with id=125
+2023-10-01 10:12:00 WARN  com.example.Service - Request with id=125 took longer than expected
+2023-10-01 10:13:00 ERROR com.example.Service - Failed to process request with id=125 due to timeout
+2023-10-01 10:14:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:15:00 INFO  com.example.Main - Application started
+2023-10-01 10:16:00 DEBUG com.example.Service - Processing request with id=126
+2023-10-01 10:17:00 WARN  com.example.Service - Request with id=126 took longer than expected
+2023-10-01 10:18:00 ERROR com.example.Service - Failed to process request with id=126 due to timeout
+2023-10-01 10:19:00 INFO  com.example.Main - Application stopped
+2023-10-01 10:16:00 DEBUG com.example.Service - Processing request with id=126
+2023-10-01 10:17:00 WARN  com.example.Service - Request with id=126 took longer than expected
+2023-10-01 10:18:00 ERROR com.example.Service - Failed to process request with id=126 due to timeout
+2023-10-01 10:19:00 INFO  com.example.Main - Application stopped

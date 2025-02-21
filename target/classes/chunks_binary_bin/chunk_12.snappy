@@ -1,0 +1,6 @@
+àğRcoding 256 array
+ 0 1 255 { 1 index exch /.notdef put} for
+
+dup 100/d put
+dup 101/e"2/f3/g4/h5/i6/j7/k8/l9/mH10/n put
+dup 111/o 
